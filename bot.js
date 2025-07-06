@@ -1,122 +1,127 @@
-
 require('dotenv').config();
-const TelegramBot = require('node-telegram-bot-api');
-const db = require('./db');
 const express = require('express');
-
-const token = process.env.BOT_TOKEN;
-const url = process.env.WEBHOOK_URL;
-const port = process.env.PORT || 10000;
-
-const bot = new TelegramBot(token, { webHook: { port } });
-bot.setWebHook(`${url}/bot${token}`);
+const TelegramBot = require('node-telegram-bot-api');
+const fs = require('fs');
+const shuffle = require('lodash.shuffle');
 
 const app = express();
 app.use(express.json());
 
-app.post(`/bot${token}`, (req, res) => {
+const TOKEN = process.env.BOT_TOKEN;
+const WEBHOOK_URL = process.env.WEBHOOK_URL;
+const PORT = process.env.PORT || 3000;
+
+const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
+
+// Настраиваем Webhook
+bot.setWebHook(`${WEBHOOK_URL}/bot`);
+
+app.post(`/bot`, (req, res) => {
   bot.processUpdate(req.body);
   res.sendStatus(200);
 });
-app.get('/', (req, res) => res.send('🤖 Quiz Bot v2 is running!'));
 
-let users = {};
+// ==== ЛОГИКА БОТА ====
 
-function shuffle(array) {
-  return array.sort(() => Math.random() - 0.5);
+// Загружаем вопросы
+const levels = ['beginner', 'intermediate', 'advanced'];
+const questions = {};
+
+for (let level of levels) {
+  const raw = fs.readFileSync(`questions/${level}.json`);
+  questions[level] = JSON.parse(raw);
 }
 
-function sendFeedback(chatId, isCorrect, correctAnswer = '') {
-  const message = isCorrect
-    ? '✅ Правильно!'
-    : `❌ Неверно! Правильный ответ: ${correctAnswer}`;
-  bot.sendMessage(chatId, message);
-}
+// Храним сессии пользователей
+const userSessions = new Map();
 
-bot.onText(/\/start/, msg => {
-  const chatId = msg.chat.id;
-  if (msg.chat.type !== 'private') {
-    bot.sendMessage(chatId, 'Пожалуйста, начните квиз в личных сообщениях.');
-    return;
-  }
-
-  users[chatId] = { score: 0, index: 0, questions: [] };
-
-  bot.sendMessage(chatId, 'Выберите уровень:', {
-    reply_markup: {
-      keyboard: [['Beginner'], ['Intermediate'], ['Advanced'], ['/start']],
-      one_time_keyboard: true,
-      resize_keyboard: true
-    }
+function startQuiz(chatId, level) {
+  const selected = shuffle(questions[level]).slice(0, 20);
+  userSessions.set(chatId, {
+    level,
+    index: 0,
+    score: 0,
+    quiz: selected
   });
-});
-
-bot.on('message', msg => {
-  const chatId = msg.chat.id;
-  const text = msg.text;
-  const user = users[chatId];
-
-  if (msg.chat.type !== 'private') return;
-
-  const levels = ['Beginner', 'Intermediate', 'Advanced'];
-
-  if (!user) return;
-
-  if (levels.includes(text)) {
-    const level = text.toLowerCase();
-    db.all('SELECT * FROM questions WHERE level = ?', [level], (err, rows) => {
-      if (err || rows.length === 0) return bot.sendMessage(chatId, 'Нет вопросов!');
-      user.questions = shuffle(rows).slice(0, 20);
-      user.index = 0;
-      user.score = 0;
-      sendQuestion(chatId);
-    });
-    return;
-  }
-
-  const current = user.questions[user.index];
-  if (current) {
-    const answerIndex = [current.option1, current.option2, current.option3, current.option4].indexOf(text);
-    const isCorrect = answerIndex + 1 === current.correct;
-    if (isCorrect) user.score++;
-
-    sendFeedback(chatId, isCorrect, current[`option${current.correct}`]);
-    user.index++;
-
-    if (user.index < user.questions.length) {
-      setTimeout(() => sendQuestion(chatId), 1500);
-    } else {
-      setTimeout(() => {
-        bot.sendMessage(chatId, `🎯 Квиз завершён! Ваш результат: ${user.score}/${user.questions.length}`, {
-          reply_markup: {
-            keyboard: [['/start']],
-            resize_keyboard: true
-          }
-        });
-        delete users[chatId];
-      }, 1000);
-    }
-  }
-});
+  sendQuestion(chatId);
+}
 
 function sendQuestion(chatId) {
-  const user = users[chatId];
-  if (!user || !user.questions || user.index >= user.questions.length) return;
+  const session = userSessions.get(chatId);
+  const question = session.quiz[session.index];
+  const number = session.index + 1;
 
-  const q = user.questions[user.index];
-  bot.sendMessage(chatId, `📚 Вопрос ${user.index + 1} из ${user.questions.length}:
-${q.question}`, {
+  const options = {
     reply_markup: {
-      keyboard: [
-        [q.option1, q.option2],
-        [q.option3, q.option4],
-        ['/start']
-      ],
-      resize_keyboard: true
+      inline_keyboard: [
+        question.options.map((opt, i) => ({
+          text: opt,
+          callback_data: i.toString()
+        }))
+      ]
     }
-  });
+  };
+
+  bot.sendMessage(
+    chatId,
+    `📚 Вопрос ${number} из 20:\n\n${question.text}`,
+    options
+  );
 }
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+// Команды
+bot.onText(/\/start/, (msg) => {
+  const chatId = msg.chat.id;
+
+  bot.sendMessage(chatId, "Выберите уровень:", {
+    reply_markup: {
+      inline_keyboard: [
+        [{ text: "🟢 Beginner", callback_data: "level_beginner" }],
+        [{ text: "🟡 Intermediate", callback_data: "level_intermediate" }],
+        [{ text: "🔴 Advanced", callback_data: "level_advanced" }]
+      ]
+    }
+  });
+});
+
+// Ответы на inline кнопки
+bot.on('callback_query', (query) => {
+  const chatId = query.message.chat.id;
+  const session = userSessions.get(chatId);
+
+  // Если нажали на уровень
+  if (query.data.startsWith('level_')) {
+    const level = query.data.split('_')[1];
+    bot.sendMessage(chatId, `Вы выбрали уровень: ${level.toUpperCase()} ✅\nНачинаем...`);
+    startQuiz(chatId, level);
+    return;
+  }
+
+  // Обработка ответа на вопрос
+  if (session) {
+    const answerIndex = parseInt(query.data);
+    const currentQuestion = session.quiz[session.index];
+
+    const isCorrect = answerIndex === currentQuestion.correct;
+    const reply = isCorrect ? "✅ Верно!" : `❌ Неверно. Правильный ответ: ${currentQuestion.options[currentQuestion.correct]}`;
+
+    if (isCorrect) session.score++;
+
+    bot.sendMessage(chatId, reply).then(() => {
+      session.index++;
+
+      if (session.index < 20) {
+        bot.sendMessage(chatId, '⏳ Следующий вопрос через 2 секунды...');
+        setTimeout(() => sendQuestion(chatId), 2000);
+      } else {
+        bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
+        userSessions.delete(chatId);
+      }
+    });
+  }
+});
+
+// Запуск сервера
+app.listen(PORT, () => {
+  console.log(`✅ Server is running on port ${PORT}`);
 });
