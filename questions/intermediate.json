@@ -1,0 +1,163 @@
+[
+  {
+    "question": "What is the past tense of 'go'?",
+    "options": ["goed", "went", "gone", "goes"],
+    "answer": "went"
+  },
+  {
+    "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "An"
+  },
+
+  {
+    "question": "What is the plural of 'mouse'?",
+    "options": ["mouses", "mice", "mouse", "mices"],
+    "answer": "mice"
+  },
+  {
+    "question": "Which of the following is a synonym for 'happy'?",
+    "options": ["sad", "joyful", "angry", "tired"],
+    "answer": "joyful"
+  },
+  {
+    "question": "What is the superlative form of 'good'?",
+    "options": ["goodest", "better", "best", "more good"],
+    "answer": "best"
+  },
+
+  {
+    "question": "Choose the correct preposition: 'She is interested ___ learning new languages.'",
+    "options": ["in", "on", "at", "for"],
+    "answer": "in"
+  },
+  {
+    "question": "What is the past participle of 'see'?",
+    "options": ["saw", "seen", "seeing", "sees"],
+    "answer": "seen"
+  },
+
+  {
+    "question": "What is the comparative form of 'bad'?",
+    "options": ["badder", "worse", "more bad", "worst"],
+    "answer": "worse"
+  },
+  {
+    "question": "Which of the following sentences is correct?",
+    "options": ["She don't like ice cream.", "She doesn't likes ice cream.", "She doesn't like ice cream.", "She not like ice cream."],
+    "answer": "She doesn't like ice cream."
+  },
+
+  {
+    "question": "What is the plural of 'cactus'?",
+    "options": ["cactuses", "cacti", "cactuss", "cactu"],
+    "answer": "cacti"
+  },
+  {
+    "question": "Choose the correct form: 'If I ___ you, I would apologize.'",
+    "options": ["was", "were", "am", "be"],
+    "answer": "were"
+  },
+
+  {
+    "question": "What is the past tense of 'teach'?",
+    "options": ["teached", "taught", "teaches", "teach"],
+    "answer": "taught"
+  },
+  {
+    "question": "Which of the following is a synonym for 'difficult'?",
+    "options": ["easy", "hard", "simple", "clear"],
+    "answer": "hard"
+  },
+  {
+    "question": "What is the superlative form of 'happy'?",
+    "options": ["happiest", "more happy", "happyest", "most happy"],
+    "answer": "happiest"
+  },
+  {
+    "question": "Choose the correct article: '___ book on the table is mine.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+
+  {
+    "question": "What is the plural of 'leaf'?",
+    "options": ["leafs", "leaves", "leafes", "leafes"],
+    "answer": "leaves"
+  },
+  {
+    "question": "Which of the following sentences is correct?",
+    "options": ["He go to school every day.", "He goes to school every day.", "He going to school every day.", "He gone to school every day."],
+    "answer": "He goes to school every day."
+  },
+  {
+    "question": "What is the past tense of 'begin'?",
+    "options": ["began", "beginned", "begun", "begin"],
+    "answer": "began"
+  },
+  {
+    "question": "Choose the correct preposition: 'She is good ___ math.'",
+    "options": ["in", "at", "on", "for"],
+    "answer": "at"
+  },
+  {
+    "question": "What is the plural of 'tooth'?",
+    "options": ["tooths", "teeth", "toothes", "tooths"],
+    "answer": "teeth"
+  },
+  {
+    "question": "Which of the following is a synonym for 'angry'?",
+    "options": ["happy", "mad", "calm", "excited"],
+    "answer": "mad"
+  },
+  {
+    "question": "What is the comparative form of 'good'?",
+    "options": ["gooder", "better", "more good", "best"],
+    "answer": "better"
+  },
+  {
+    "question": "Choose the correct article: '___ sun rises in the east.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The"
+  },
+  {
+    "question": "What is the past participle of 'write'?",
+    "options": ["wrote", "written", "writing", "writes"],
+    "answer": "written"
+  },
+  {
+    "question": "Which of the following sentences is correct?",
+    "options": ["They was happy.", "They were happy.", "They are happy.", "They be happy."],
+    "answer": "They were happy."
+  },
+  {
+    "question": "What is the plural of 'fish'?",
+    "options": ["fishs", "fishes", "fishies", "fish"],
+    "answer": "fish"
+  },
+  {
+    "question": "Choose the correct form: 'If it ___ rain tomorrow, we will go to the park.'",
+    "options": ["doesn't", "don't", "didn't", "won't"],
+    "answer": "doesn't"
+  },
+  {
+    "question": "What is the past tense of 'catch'?",
+    "options": ["catched", "caught", "catches", "catch"],
+    "answer": "caught"
+  },
+  {
+    "question": "Which of the following is a synonym for 'beautiful'?",
+    "options": ["ugly", "pretty", "plain", "ordinary"],
+    "answer": "pretty"
+  },
+  {
+    "question": "What is the superlative form of 'bad'?",
+    "options": ["worst", "badest", "more bad", "worse"],
+    "answer": "worst"
+  },
+  {
+    "question": "Choose the correct article: '___ hour ago, I saw a movie.'",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "An"
+  }
+]

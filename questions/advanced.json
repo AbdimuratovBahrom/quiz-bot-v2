@@ -1,0 +1,12 @@
+[
+  {
+    "question": "If I _____ earlier, I would have caught the train.",
+    "options": ["left", "leave", "had left", "have left"],
+    "answer": "had left"
+  },
+  {
+    "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+    "options": ["arrived", "had arrived", "arrives", "was arriving"],
+    "answer": "arrived"
+  }
+]
