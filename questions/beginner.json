@@ -1,0 +1,12 @@
+[
+{
+"question": "What is the plural of 'child'?",
+"options": ["childs", "childes", "children", "child"],
+"answer": "children"
+},
+{
+"question": "Choose the correct article: ___ apple a day keeps the doctor away.",
+"options": ["A", "An", "The", "No article"],
+"answer": "An"
+}
+]
