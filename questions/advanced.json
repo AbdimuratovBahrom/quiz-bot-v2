@@ -1,12 +1,802 @@
 [
   {
-    "question": "If I _____ earlier, I would have caught the train.",
-    "options": ["left", "leave", "had left", "have left"],
-    "answer": "had left"
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
   },
   {
-    "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
-    "options": ["arrived", "had arrived", "arrives", "was arriving"],
-    "answer": "arrived"
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
+  },
+  {
+    "text": "Identify the correct sentence.",
+    "options": [
+      "Had I known, I would have gone.",
+      "If I know, I would have go.",
+      "If I knew, I will have gone.",
+      "If I have known, I had gone."
+    ],
+    "correct": 0
+  },
+  {
+    "text": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Useless",
+      "Funny"
+    ],
+    "correct": 1
   }
 ]
