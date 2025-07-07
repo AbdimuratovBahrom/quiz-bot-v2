@@ -12,7 +12,9 @@ const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const PORT = process.env.PORT;
 
-const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
+const bot = new TelegramBot(TOKEN);
+bot.setWebHook(`${WEBHOOK_URL}/bot`);
+
 
 // Настраиваем Webhook
 bot.setWebHook(`${WEBHOOK_URL}/bot`);
