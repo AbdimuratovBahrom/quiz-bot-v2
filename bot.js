@@ -1,4 +1,3 @@
-
 require('dotenv').config();
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
@@ -13,10 +12,6 @@ const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const PORT = process.env.PORT;
 
 const bot = new TelegramBot(TOKEN);
-bot.setWebHook(`${WEBHOOK_URL}/bot`);
-
-
-// Настраиваем Webhook
 bot.setWebHook(`${WEBHOOK_URL}/bot`);
 
 app.post(`/bot`, (req, res) => {
@@ -118,24 +113,82 @@ bot.on('callback_query', (query) => {
 
     const isCorrect = answerIndex === currentQuestion.correct;
     const reply = isCorrect ? "✅ Верно!" : `❌ Неверно. Правильный ответ: ${currentQuestion.options[currentQuestion.correct]}`;
-if (isCorrect) session.score++;
 
-bot.sendMessage(chatId, reply).then(() => {
-  session.index++;
+    if (isCorrect) session.score++;
 
-  if (session.index < 20) {
-    // Добавляем задержку перед следующим сообщением
-    setTimeout(() => {
-      bot.sendMessage(chatId, '⏳ Следующий вопрос...');
-      setTimeout(() => sendQuestion(chatId), 1000); // ещё 1 сек — затем вопрос
-    }, 1000); // 1 сек после ответа
-  } else {
-    bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
-    userSessions.delete(chatId);
+    bot.sendMessage(chatId, reply).then(() => {
+      session.index++;
+
+      if (session.index < 20) {
+        setTimeout(() => {
+          bot.sendMessage(chatId, '⏳ Следующий вопрос...');
+          setTimeout(() => sendQuestion(chatId), 1000);
+        }, 1000);
+      } else {
+        bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
+        userSessions.delete(chatId);
+      }
+    });
   }
 });
 
+// Команда /help
+bot.onText(/\/help/, (msg) => {
+  const chatId = msg.chat.id;
+  bot.sendMessage(chatId,
+    `ℹ️ Как пользоваться ботом:\n` +
+    `1. Нажмите /start или Начать тест и выберите уровень.\n` +
+    `2. Вам будет задано 20 вопросов.\n` +
+    `3. Отвечайте нажимая на варианты.\n` +
+    `4. После окончания увидите результат.\n` +
+    `Вы всегда можете использовать /restart, чтобы начать заново.`
+    `Выберите уровень: Beginner, Intermediate или Advanced.` 
+    `Текущий результат будет показан по команде /score.`
+  );
+});
+
+// Команда /level
+bot.onText(/\/level/, (msg) => {
+  const chatId = msg.chat.id;
+  bot.sendMessage(chatId, "Выберите уровень:", {
+    reply_markup: {
+      inline_keyboard: [
+        [{ text: "🟢 Beginner", callback_data: "level_beginner" }],
+        [{ text: "🟡 Intermediate", callback_data: "level_intermediate" }],
+        [{ text: "🔴 Advanced", callback_data: "level_advanced" }]
+      ]
+    }
+  });
+});
+
+// Команда /score
+bot.onText(/\/score/, (msg) => {
+  const chatId = msg.chat.id;
+  const session = userSessions.get(chatId);
+  if (session) {
+    bot.sendMessage(chatId, `🎯 Текущий результат: ${session.score} из ${session.index}`);
+  } else {
+    bot.sendMessage(chatId, `ℹ️ Пока нет активной викторины. Нажмите /start.`);
   }
+});
+
+// Команда /info
+bot.onText(/\/info/, (msg) => {
+  const chatId = msg.chat.id;
+  bot.sendMessage(chatId,
+    `📘 Этот бот поможет тебе проверить уровень английского!\n\n` +
+    `📗 Уровни: Beginner, Intermediate, Advanced\n` +
+    `🎯 По 20 случайных вопросов\n` +
+    `📊 Итоговый результат — сразу после завершения.\n\n` +
+    `Нажмите /start, чтобы начать!`
+  );
+});
+
+// Команда /restart
+bot.onText(/\/restart/, (msg) => {
+  const chatId = msg.chat.id;
+  userSessions.delete(chatId);
+  bot.sendMessage(chatId, `🔄 Начинаем заново. Нажмите /start`);
 });
 
 app.listen(PORT, () => {
