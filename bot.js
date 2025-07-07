@@ -118,20 +118,23 @@ bot.on('callback_query', (query) => {
 
     const isCorrect = answerIndex === currentQuestion.correct;
     const reply = isCorrect ? "✅ Верно!" : `❌ Неверно. Правильный ответ: ${currentQuestion.options[currentQuestion.correct]}`;
+if (isCorrect) session.score++;
 
-    if (isCorrect) session.score++;
+bot.sendMessage(chatId, reply).then(() => {
+  session.index++;
 
-    bot.sendMessage(chatId, reply).then(() => {
-      session.index++;
+  if (session.index < 20) {
+    // Добавляем задержку перед следующим сообщением
+    setTimeout(() => {
+      bot.sendMessage(chatId, '⏳ Следующий вопрос...');
+      setTimeout(() => sendQuestion(chatId), 1000); // ещё 1 сек — затем вопрос
+    }, 1000); // 1 сек после ответа
+  } else {
+    bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
+    userSessions.delete(chatId);
+  }
+});
 
-      if (session.index < 20) {
-        bot.sendMessage(chatId, '⏳');
-        setTimeout(() => sendQuestion(chatId), 1000);
-      } else {
-        bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
-        userSessions.delete(chatId);
-      }
-    });
   }
 });
 
