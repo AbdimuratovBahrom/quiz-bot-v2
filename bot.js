@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
@@ -11,8 +12,7 @@ const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const PORT = process.env.PORT || 3000;
 
-const bot = new TelegramBot(TOKEN);
-
+const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
 
 // Настраиваем Webhook
 bot.setWebHook(`${WEBHOOK_URL}/bot`);
@@ -24,7 +24,6 @@ app.post(`/bot`, (req, res) => {
 
 // ==== ЛОГИКА БОТА ====
 
-// Загружаем вопросы
 const levels = ['beginner', 'intermediate', 'advanced'];
 const questions = {};
 
@@ -33,7 +32,6 @@ for (let level of levels) {
   questions[level] = JSON.parse(raw);
 }
 
-// Храним сессии пользователей
 const userSessions = new Map();
 
 function startQuiz(chatId, level) {
@@ -70,27 +68,41 @@ function sendQuestion(chatId) {
   );
 }
 
-// Команды
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
-  bot.sendMessage(chatId, "Выберите уровень:", {
+  bot.sendMessage(chatId, "Добро пожаловать! Нажмите кнопку ниже, чтобы начать тест.", {
     reply_markup: {
-      inline_keyboard: [
-        [{ text: "🟢 Beginner", callback_data: "level_beginner" }],
-        [{ text: "🟡 Intermediate", callback_data: "level_intermediate" }],
-        [{ text: "🔴 Advanced", callback_data: "level_advanced" }]
-      ]
+      keyboard: [
+        [{ text: "📝 Начать тест" }]
+      ],
+      resize_keyboard: true,
+      one_time_keyboard: true
     }
   });
 });
 
-// Ответы на inline кнопки
+bot.on('message', (msg) => {
+  const chatId = msg.chat.id;
+  const text = msg.text;
+
+  if (text === "📝 Начать тест") {
+    bot.sendMessage(chatId, "Выберите уровень:", {
+      reply_markup: {
+        inline_keyboard: [
+          [{ text: "🟢 Beginner", callback_data: "level_beginner" }],
+          [{ text: "🟡 Intermediate", callback_data: "level_intermediate" }],
+          [{ text: "🔴 Advanced", callback_data: "level_advanced" }]
+        ]
+      }
+    });
+  }
+});
+
 bot.on('callback_query', (query) => {
   const chatId = query.message.chat.id;
   const session = userSessions.get(chatId);
 
-  // Если нажали на уровень
   if (query.data.startsWith('level_')) {
     const level = query.data.split('_')[1];
     bot.sendMessage(chatId, `Вы выбрали уровень: ${level.toUpperCase()} ✅\nНачинаем...`);
@@ -98,7 +110,6 @@ bot.on('callback_query', (query) => {
     return;
   }
 
-  // Обработка ответа на вопрос
   if (session) {
     const answerIndex = parseInt(query.data);
     const currentQuestion = session.quiz[session.index];
@@ -112,8 +123,8 @@ bot.on('callback_query', (query) => {
       session.index++;
 
       if (session.index < 20) {
-        bot.sendMessage(chatId, '⏳ Следующий вопрос через 2 секунды...');
-        setTimeout(() => sendQuestion(chatId), 2000);
+        bot.sendMessage(chatId, '⏳');
+        setTimeout(() => sendQuestion(chatId), 1000);
       } else {
         bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
         userSessions.delete(chatId);
@@ -122,7 +133,6 @@ bot.on('callback_query', (query) => {
   }
 });
 
-// Запуск сервера
 app.listen(PORT, () => {
   console.log(`✅ Server is running on port ${PORT}`);
 });
