@@ -1,802 +1,412 @@
 [
   {
     "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "options": ["child", "childes", "children", "childs"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'big'?",
+    "options": ["small", "huge", "large", "tall"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which word is a color?",
+    "options": ["table", "run", "blue", "book"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is 2 + 3?",
+    "options": ["6", "5", "7", "4"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the day after Monday?",
+    "options": ["Friday", "Tuesday", "Sunday", "Wednesday"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which animal is a pet?",
+    "options": ["tiger", "dog", "lion", "elephant"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the verb in this sentence: 'I eat apples.'?",
+    "options": ["apples", "eat", "I", "this"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'book'?",
+    "options": ["book", "bookes", "books", "bookies"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which word is a number?",
+    "options": ["five", "cat", "sky", "tree"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What do you use to write on a blackboard?",
+    "options": ["marker", "pencil", "chalk", "pen"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the opposite of 'hot'?",
+    "options": ["cool", "cold", "warm", "burning"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which is a fruit?",
+    "options": ["carrot", "potato", "apple", "broccoli"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the first letter of the alphabet?",
+    "options": ["C", "A", "B", "D"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is the past tense of 'go'?",
+    "options": ["go", "went", "gone", "going"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which word means 'happy'?",
+    "options": ["glad", "sad", "angry", "tired"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'man'?",
+    "options": ["mens", "man", "men", "mans"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What do you wear on your feet?",
+    "options": ["scarf", "hat", "shoes", "gloves"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which is a day of the week?",
+    "options": ["Friday", "summer", "January", "evening"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is 10 - 4?",
+    "options": ["7", "8", "5", "6"],
+    "correct": 3
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which word is a pronoun?",
+    "options": ["run", "she", "big", "table"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'up'?",
+    "options": ["high", "left", "down", "right"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which is a vegetable?",
+    "options": ["apple", "carrot", "banana", "orange"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What do you use to tell time?",
+    "options": ["book", "pen", "clock", "phone"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'cat'?",
+    "options": ["catz", "cat", "cates", "cats"],
+    "correct": 3
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which word is an adjective?",
+    "options": ["big", "dog", "run", "eat"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'fast'?",
+    "options": ["slow", "quick", "rapid", "speedy"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is a month?",
+    "options": ["spring", "Monday", "July", "evening"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is 3 x 2?",
+    "options": ["9", "6", "5", "8"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What do you sleep on?",
+    "options": ["bed", "chair", "table", "sofa"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which word is a verb?",
+    "options": ["blue", "sun", "jump", "house"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'foot'?",
+    "options": ["foot", "foots", "feet", "feets"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is the opposite of 'open'?",
+    "options": ["free", "close", "wide", "shut"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is an animal?",
+    "options": ["bird", "car", "tree", "cloud"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is 7 + 5?",
+    "options": ["12", "14", "11", "13"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What do you drink from?",
+    "options": ["fork", "plate", "cup", "spoon"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which word is a noun?",
+    "options": ["fast", "house", "jump", "run"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'old'?",
+    "options": ["young", "ancient", "aged", "former"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which is a season?",
+    "options": ["morning", "winter", "July", "Friday"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the past tense of 'eat'?",
+    "options": ["eat", "eating", "ate", "eaten"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What do you sit on?",
+    "options": ["door", "chair", "window", "wall"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which word means 'sad'?",
+    "options": ["unhappy", "happy", "glad", "joyful"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is the plural of 'mouse'?",
+    "options": ["mices", "mice", "mouses", "mouse"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is 15 - 7?",
+    "options": ["9", "10", "8", "6"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which is a body part?",
+    "options": ["book", "hand", "car", "tree"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the opposite of 'in'?",
+    "options": ["on", "out", "under", "over"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which word is a preposition?",
+    "options": ["under", "dog", "run", "big"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'dog'?",
+    "options": ["doges", "dog", "dogs", "dogz"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is 4 x 3?",
+    "options": ["14", "12", "10", "8"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "Which is a type of weather?",
+    "options": ["pen", "rain", "chair", "table"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What do you read?",
+    "options": ["shoe", "book", "car", "food"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'long'?",
+    "options": ["big", "tall", "short", "wide"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which word is an adverb?",
+    "options": ["house", "quickly", "dog", "blue"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'baby'?",
+    "options": ["babies", "baby", "babys", "babes"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is 20 ÷ 4?",
+    "options": ["6", "7", "4", "5"],
+    "correct": 3
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is a piece of furniture?",
+    "options": ["cloud", "car", "table", "tree"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the past tense of 'run'?",
+    "options": ["ran", "run", "running", "runned"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is the opposite of 'day'?",
+    "options": ["sun", "night", "evening", "morning"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which is a type of transport?",
+    "options": ["car", "apple", "book", "house"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is 9 + 8?",
+    "options": ["18", "17", "16", "19"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which word is a conjunction?",
+    "options": ["run", "and", "dog", "big"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'fish'?",
+    "options": ["fishies", "fishs", "fish", "fishes"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What do you wear on your head?",
+    "options": ["socks", "gloves", "hat", "shoes"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is a school subject?",
+    "options": ["tree", "food", "math", "car"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is the opposite of 'good'?",
+    "options": ["nice", "bad", "great", "better"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is 12 - 5?",
+    "options": ["8", "7", "6", "9"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which is a kitchen item?",
+    "options": ["pen", "spoon", "chair", "book"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the past tense of 'see'?",
+    "options": ["saw", "seen", "see", "seeing"],
+    "correct": 0
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "Which word means 'big'?",
+    "options": ["large", "small", "tiny", "short"],
+    "correct": 0
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'woman'?",
+    "options": ["woman", "womens", "women", "womans"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is 6 x 2?",
+    "options": ["8", "14", "12", "10"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "Which is a drink?",
+    "options": ["apple", "water", "bread", "plate"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the opposite of 'on'?",
+    "options": ["down", "in", "off", "up"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is a sport?",
+    "options": ["pen", "chair", "soccer", "book"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is the plural of 'tooth'?",
+    "options": ["teethes", "tooth", "teeth", "tooths"],
+    "correct": 2
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
+    "text": "What is 8 + 7?",
+    "options": ["17", "15", "14", "16"],
     "correct": 1
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "Which word is an exclamation?",
+    "options": ["blue", "wow", "dog", "run"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "What do you use to cut paper?",
+    "options": ["brush", "pen", "scissors", "spoon"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
+    "text": "What is the opposite of 'light'?",
+    "options": ["glow", "dark", "shine", "bright"],
     "correct": 1
   },
   {
-    "text": "What is the plural of 'child'?",
-    "options": [
-      "childs",
-      "children",
-      "childes",
-      "child"
-    ],
-    "correct": 1
+    "text": "Which is a bird?",
+    "options": ["lion", "fish", "eagle", "dog"],
+    "correct": 2
   },
   {
-    "text": "Choose the correct form: 'She ___ to school every day.'",
-    "options": [
-      "go",
-      "goes",
-      "gone",
-      "going"
-    ],
-    "correct": 1
+    "text": "What is 18 - 9?",
+    "options": ["11", "10", "9", "8"],
+    "correct": 2
+  },
+  {
+    "text": "Which word is an article?",
+    "options": ["dog", "big", "the", "run"],
+    "correct": 2
+  },
+  {
+    "text": "What is the plural of 'box'?",
+    "options": ["box", "boxs", "boxes", "boxies"],
+    "correct": 2
   }
 ]

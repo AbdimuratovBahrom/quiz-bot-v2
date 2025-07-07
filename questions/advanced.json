@@ -1,802 +1,387 @@
 [
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence uses the subjunctive mood correctly?",
+    "options": ["I suggest that he studies harder.", "I suggest that he study harder.", "I suggest that he is studying harder.", "I suggest that he studied harder."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the idiom 'burn the midnight oil' mean?",
+    "options": ["waste time", "work late into the night", "start early", "relax at night"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which word is a synonym for 'ephemeral'?",
+    "options": ["lasting", "transient", "eternal", "permanent"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Choose the correct preposition: 'She was oblivious ___ the danger around her.'",
+    "options": ["to", "of", "at", "with"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the phrasal verb 'brush up on' mean?",
+    "options": ["ignore", "review or improve", "forget", "avoid"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which sentence is grammatically correct?",
+    "options": ["Had I known, I would have acted differently.", "Had I knew, I would have acted differently.", "If I knew, I would acted differently.", "If I had known, I would acted differently."],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is the opposite of 'meticulous'?",
+    "options": ["careful", "careless", "precise", "thorough"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which word completes the sentence: 'Her decision was based on ___ reasoning.'?",
+    "options": ["faulty", "sound", "weak", "flawed"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'take something with a grain of salt' mean?",
+    "options": ["believe it completely", "doubt its truth", "ignore it", "accept it reluctantly"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence uses the correct conditional form?",
+    "options": ["If she studies, she would pass.", "If she had studied, she would have passed.", "If she studied, she will pass.", "If she would study, she would pass."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is a synonym for 'ubiquitous'?",
+    "options": ["rare", "common", "scarce", "unique"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which preposition fits: 'He’s notorious ___ his reckless behavior.'?",
+    "options": ["for", "with", "at", "of"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the phrasal verb 'fall through' mean?",
+    "options": ["succeed", "fail to happen", "complete", "start"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["Neither of them are coming.", "Neither of them is coming.", "Neither of them were coming.", "Neither of them have come."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "What is the passive voice of 'They have just finished the project.'?",
+    "options": ["The project has just been finished.", "The project was just finished.", "The project is just finished.", "The project had just been finished."],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'cut corners' mean?",
+    "options": ["work thoroughly", "save time or money by reducing quality", "improve efficiency", "follow rules strictly"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which word is a synonym for 'ameliorate'?",
+    "options": ["worsen", "improve", "maintain", "destroy"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which word completes: 'His argument was ___ by the lack of evidence.'?",
+    "options": ["strengthened", "undermined", "supported", "confirmed"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "What does the idiom 'barking up the wrong tree' mean?",
+    "options": ["making a mistake about something", "being correct", "working hard", "giving up"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence uses the correct tense?",
+    "options": ["By the time she arrives, we will finish.", "By the time she arrives, we will have finished.", "By the time she arrives, we finished.", "By the time she arrives, we had finished."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is the opposite of 'benevolent'?",
+    "options": ["kind", "malicious", "generous", "friendly"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which preposition fits: 'She’s proficient ___ multiple languages.'?",
+    "options": ["at", "in", "with", "on"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "What does 'get away with' mean?",
+    "options": ["escape punishment", "be caught", "try hard", "give up"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is grammatically correct?",
+    "options": ["All the furniture are new.", "All the furniture is new.", "All the furniture were new.", "All the furniture have been new."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is a synonym for 'tenacious'?",
+    "options": ["weak", "persistent", "careless", "indifferent"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which word completes: 'If only I ___ the opportunity earlier!'?",
+    "options": ["had seized", "seized", "have seized", "would seize"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'pull strings' mean?",
+    "options": ["work hard", "use influence", "fail", "give up"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence uses the correct form?",
+    "options": ["I wish I was taller.", "I wish I were taller.", "I wish I am taller.", "I wish I would be taller."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is the opposite of 'eloquent'?",
+    "options": ["articulate", "inarticulate", "fluent", "expressive"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which word completes: 'Her speech was ___ inspiring.'?",
+    "options": ["profoundly", "slightly", "barely", "hardly"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the idiom 'spill the beans' mean?",
+    "options": ["keep a secret", "reveal a secret", "make a mess", "work hard"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["The data suggests a change.", "The data suggest a change.", "The data is suggesting a change.", "The data are suggest a change."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is a synonym for 'prudent'?",
+    "options": ["reckless", "cautious", "careless", "bold"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which preposition fits: 'He’s allergic ___ nuts.'?",
+    "options": ["to", "with", "at", "of"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'throw in the towel' mean?",
+    "options": ["continue fighting", "give up", "start over", "work harder"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which sentence uses the correct tense?",
+    "options": ["She has been writing a book since last year.", "She is writing a book since last year.", "She was writing a book since last year.", "She writes a book since last year."],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is the passive voice of 'They are discussing the issue.'?",
+    "options": ["The issue is discussed.", "The issue was discussed.", "The issue is being discussed.", "The issue has been discussed."],
+    "correct": 2
+  },
+  {
+    "text": "What does 'hold off' mean?",
+    "options": ["delay", "start", "complete", "cancel"],
+    "correct": 0
+  },
+  {
+    "text": "Which word is a synonym for 'obscure'?",
+    "options": ["clear", "vague", "obvious", "apparent"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which word completes: 'His actions were ___ with his beliefs.'?",
+    "options": ["consistent", "inconsistent", "similar", "identical"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the idiom 'on cloud nine' mean?",
+    "options": ["very sad", "very happy", "very tired", "very angry"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["Every one of them have a ticket.", "Every one of them has a ticket.", "Every one of them had a ticket.", "Every one of them are having a ticket."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "What is the opposite of 'ambiguous'?",
+    "options": ["clear", "vague", "uncertain", "confusing"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which preposition fits: 'She’s capable ___ handling tough situations.'?",
+    "options": ["of", "at", "with", "in"],
+    "correct": 0
+  },
+  {
+    "text": "What does 'come up with' mean?",
+    "options": ["forget", "create or suggest", "avoid", "reject"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is grammatically correct?",
+    "options": ["The committee are meeting today.", "The committee is meeting today.", "The committee were meeting today.", "The committee have met today."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is a synonym for 'resilient'?",
+    "options": ["fragile", "adaptable", "weak", "rigid"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which word completes: 'If he ___ more carefully, he wouldn’t have failed.'?",
+    "options": ["had listened", "listened", "has listened", "would listen"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'rule out' mean?",
+    "options": ["confirm", "eliminate", "include", "suggest"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence uses the correct form?",
+    "options": ["It’s high time we leave.", "It’s high time we left.", "It’s high time we had left.", "It’s high time we would leave."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "What is the opposite of 'spontaneous'?",
+    "options": ["planned", "natural", "impulsive", "sudden"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which word completes: 'Her speech was ___ with emotion.'?",
+    "options": ["devoid", "laden", "empty", "lacking"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does the idiom 'bite the bullet' mean?",
+    "options": ["avoid a problem", "face a difficult situation", "run away", "ignore a task"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["A number of people was present.", "A number of people were present.", "A number of people is present.", "A number of people has been present."],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
-    "correct": 0
-  },
-  {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What is a synonym for 'candid'?",
+    "options": ["dishonest", "honest", "secretive", "reserved"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which preposition fits: 'He’s adept ___ solving complex problems.'?",
+    "options": ["at", "in", "with", "of"],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'back down' mean?",
+    "options": ["persist", "retreat", "support", "encourage"],
     "correct": 1
   },
   {
-    "text": "Identify the correct sentence.",
-    "options": [
-      "Had I known, I would have gone.",
-      "If I know, I would have go.",
-      "If I knew, I will have gone.",
-      "If I have known, I had gone."
-    ],
+    "text": "Which sentence uses the correct tense?",
+    "options": ["If I knew, I would have told you.", "If I had known, I would have told you.", "If I know, I would tell you.", "If I had known, I will tell you."],
+    "correct": 1
+  },
+  {
+    "text": "What is the passive voice of 'They will announce the results tomorrow.'?",
+    "options": ["The results will be announced tomorrow.", "The results are announced tomorrow.", "The results were announced tomorrow.", "The results have been announced tomorrow."],
     "correct": 0
   },
   {
-    "text": "What does the word 'ubiquitous' mean?",
-    "options": [
-      "Rare",
-      "Everywhere",
-      "Useless",
-      "Funny"
-    ],
+    "text": "What does 'chip in' mean?",
+    "options": ["refuse", "contribute", "interrupt", "ignore"],
+    "correct": 1
+  },
+  {
+    "text": "Which word is a synonym for 'prolific'?",
+    "options": ["unproductive", "productive", "scarce", "limited"],
+    "correct": 1
+  },
+  {
+    "text": "Which word completes: 'His decision was ___ by his peers.'?",
+    "options": ["criticized", "praised", "ignored", "questioned"],
+    "correct": 1
+  },
+  {
+    "text": "What does the idiom 'in the same boat' mean?",
+    "options": ["in different situations", "in the same situation", "in conflict", "in agreement"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is correct?",
+    "options": ["The news are shocking.", "The news is shocking.", "The news were shocking.", "The news have been shocking."],
+    "correct": 1
+  },
+  {
+    "text": "What is the opposite of 'frugal'?",
+    "options": ["economical", "wasteful", "careful", "thrifty"],
+    "correct": 1
+  },
+  {
+    "text": "Which preposition fits: 'She’s passionate ___ environmental issues.'?",
+    "options": ["about", "with", "at", "in"],
+    "correct": 0
+  },
+  {
+    "text": "What does 'weigh in' mean in a discussion?",
+    "options": ["stay silent", "offer an opinion", "avoid", "interrupt"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is grammatically correct?",
+    "options": ["Each of the students have a book.", "Each of the students has a book.", "Each of the students were given a book.", "Each of the students are given a book."],
+    "correct": 1
+  },
+  {
+    "text": "What is a synonym for 'vexed'?",
+    "options": ["calm", "annoyed", "pleased", "relaxed"],
+    "correct": 1
+  },
+  {
+    "text": "Which word completes: 'If she ___ more time, she would have finished.'?",
+    "options": ["has", "had", "had had", "would have"],
+    "correct": 2
+  },
+  {
+    "text": "What does 'iron out' mean?",
+    "options": ["create problems", "resolve problems", "ignore problems", "worsen problems"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence uses the correct form?",
+    "options": ["I’d rather you stay here.", "I’d rather you stayed here.", "I’d rather you would stay here.", "I’d rather you had stayed here."],
+    "correct": 1
+  },
+  {
+    "text": "What is the opposite of 'vivid'?",
+    "options": ["bright", "dull", "colorful", "lively"],
+    "correct": 1
+  },
+  {
+    "text": "Which word completes: 'Her explanation was ___ convincing.'?",
+    "options": ["barely", "highly", "scarcely", "hardly"],
+    "correct": 1
+  },
+  {
+    "text": "What does the idiom 'go the extra mile' mean?",
+    "options": ["do the minimum", "do more than expected", "give up", "work slowly"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is correct?",
+    "options": ["A majority of voters is in favor.", "A majority of voters are in favor.", "A majority of voters was in favor.", "A majority of voters has been in favor."],
+    "correct": 1
+  },
+  {
+    "text": "What is a synonym for 'zealous'?",
+    "options": ["indifferent", "enthusiastic", "calm", "apathetic"],
     "correct": 1
   }
 ]

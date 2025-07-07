@@ -1,802 +1,402 @@
 [
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "What is the past perfect tense of 'write'?",
+    "options": ["written", "wrote", "had written", "was writing"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which word means 'to postpone'?",
+    "options": ["delay", "hurry", "start", "finish"],
+    "correct": 0
+  },
+  {
+    "text": "Choose the correct preposition: 'She is good ___ singing.'",
+    "options": ["in", "at", "on", "with"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the phrasal verb 'give up' mean?",
+    "options": ["start", "quit", "continue", "share"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["She don’t like coffee.", "She doesn’t like coffee.", "She not like coffee.", "She isn’t like coffee."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "What is the synonym of 'happy'?",
+    "options": ["cheerful", "angry", "sad", "tired"],
+    "correct": 0
+  },
+  {
+    "text": "Which word completes the sentence: 'If I ___ rich, I would travel the world.'?",
+    "options": ["am", "was", "were", "be"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'break down' mean in the context of a car?",
+    "options": ["speed up", "stop working", "turn off", "slow down"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which is the correct form of the verb: 'She ___ to the store yesterday.'?",
+    "options": ["go", "gone", "went", "going"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'generous'?",
+    "options": ["kind", "selfish", "friendly", "helpful"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+    "options": ["A", "An", "The", "No article"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the idiom 'hit the nail on the head' mean?",
+    "options": ["make a mistake", "be exactly right", "work hard", "give up"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "Which word is a synonym for 'difficult'?",
+    "options": ["hard", "easy", "simple", "clear"],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which sentence uses the correct tense?",
+    "options": ["I am studying English since last year.", "I have been studying English since last year.", "I study English since last year.", "I was study English since last year."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the passive voice of 'They are painting the house.'?",
+    "options": ["The house is painted.", "The house is being painted.", "The house was painted.", "The house has painted."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'look after' mean?",
+    "options": ["search for", "take care of", "wait for", "look at"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which word completes the sentence: 'She ___ her homework before dinner.'?",
+    "options": ["does", "did", "has done", "doing"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'increase'?",
+    "options": ["grow", "decrease", "rise", "expand"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which preposition fits: 'I’m interested ___ learning new languages.'?",
+    "options": ["on", "in", "at", "with"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the phrasal verb 'turn down' mean?",
+    "options": ["accept", "reject", "increase", "decrease"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which sentence is grammatically correct?",
+    "options": ["He have two cats.", "He has two cats.", "He having two cats.", "He is have two cats."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "What is a synonym for 'tired'?",
+    "options": ["exhausted", "energetic", "happy", "excited"],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which word completes: 'If it ___ tomorrow, we’ll stay home.'?",
+    "options": ["rains", "rain", "rained", "will rain"],
+    "correct": 0
+  },
+  {
+    "text": "What does 'run out of' mean?",
+    "options": ["find", "use up", "start", "buy"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which is the correct form: 'She ___ to Paris last summer.'?",
+    "options": ["travel", "traveled", "has traveled", "traveling"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'polite'?",
+    "options": ["kind", "rude", "friendly", "helpful"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Choose the correct article: '___ Mount Everest is the highest mountain.'",
+    "options": ["A", "An", "The", "No article"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the idiom 'let the cat out of the bag' mean?",
+    "options": ["keep a secret", "reveal a secret", "buy something", "lose something"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which word is a synonym for 'beautiful'?",
+    "options": ["pretty", "ugly", "plain", "dull"],
+    "correct": 0
+  },
+  {
+    "text": "Which sentence is correct?",
+    "options": ["I have been to London last year.", "I was to London last year.", "I went to London last year.", "I am going to London last year."],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the passive voice of 'Someone stole my bike.'?",
+    "options": ["My bike was stolen.", "My bike is stolen.", "My bike has stolen.", "My bike was stole."],
+    "correct": 0
+  },
+  {
+    "text": "What does 'pick up' mean in the context of learning?",
+    "options": ["forget", "learn quickly", "teach", "study hard"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "Which word completes: 'She ___ her friend for two hours.'?",
+    "options": ["has been calling", "called", "calls", "is calling"],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'simple'?",
+    "options": ["easy", "complex", "clear", "plain"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "Which preposition fits: 'He’s afraid ___ spiders.'?",
+    "options": ["of", "at", "in", "with"],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'come across' mean?",
+    "options": ["meet by chance", "run away", "look for", "give away"],
+    "correct": 0
+  },
+  {
+    "text": "Which sentence is grammatically correct?",
+    "options": ["They was playing football.", "They were playing football.", "They is playing football.", "They are play football."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is a synonym for 'smart'?",
+    "options": ["lazy", "intelligent", "slow", "careless"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which word completes: 'If I ___ you, I’d apologize.'?",
+    "options": ["am", "was", "were", "be"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'put off' mean?",
+    "options": ["start", "delay", "finish", "cancel"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which is the correct form: 'They ___ here since 2010.'?",
+    "options": ["lived", "have lived", "are living", "live"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'safe'?",
+    "options": ["secure", "dangerous", "protected", "calm"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Choose the correct article: 'I saw ___ interesting movie yesterday.'",
+    "options": ["a", "an", "the", "no article"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the idiom 'under the weather' mean?",
+    "options": ["feeling great", "feeling sick", "feeling happy", "feeling tired"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which word is a synonym for 'angry'?",
+    "options": ["calm", "furious", "peaceful", "quiet"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which sentence uses the correct tense?",
+    "options": ["She is working here since May.", "She has been working here since May.", "She works here since May.", "She was work here since May."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "What is the passive voice of 'They will build a new bridge.'?",
+    "options": ["A new bridge will be built.", "A new bridge is built.", "A new bridge was built.", "A new bridge has been built."],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'take off' mean for an airplane?",
+    "options": ["land", "fly into the air", "stop", "crash"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which word completes: 'He ___ his keys yesterday.'?",
+    "options": ["loses", "lost", "has lost", "losing"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
+    "text": "What is the opposite of 'cheap'?",
+    "options": ["expensive", "affordable", "low", "free"],
+    "correct": 0
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which preposition fits: 'She’s good ___ math.'?",
+    "options": ["in", "at", "on", "with"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'look forward to' mean?",
+    "options": ["dislike", "anticipate with pleasure", "avoid", "forget"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which sentence is correct?",
+    "options": ["I don’t have no money.", "I don’t have any money.", "I haven’t no money.", "I not have any money."],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is a synonym for 'fast'?",
+    "options": ["slow", "quick", "calm", "steady"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which word completes: 'If we ___ earlier, we wouldn’t be late.'?",
+    "options": ["leave", "left", "had left", "leaving"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'get over' mean in the context of an illness?",
+    "options": ["catch", "recover from", "avoid", "worsen"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "Which is the correct form: 'She ___ to the gym every day.'?",
+    "options": ["go", "goes", "gone", "going"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
-    "correct": 2
-  },
-  {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What is the opposite of 'strong'?",
+    "options": ["powerful", "weak", "healthy", "tough"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Choose the correct article: '___ sun rises in the east.'",
+    "options": ["A", "An", "The", "No article"],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does the idiom 'piece of cake' mean?",
+    "options": ["difficult", "easy", "expensive", "tasty"],
     "correct": 1
   },
   {
-    "text": "Choose the correct sentence.",
-    "options": [
-      "He don't like coffee.",
-      "He doesn't likes coffee.",
-      "He doesn't like coffee.",
-      "He don't likes coffee."
-    ],
+    "text": "Which word is a synonym for 'nervous'?",
+    "options": ["calm", "anxious", "relaxed", "peaceful"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is correct?",
+    "options": ["He has been living here since two years.", "He has lived here for two years.", "He lives here since two years.", "He was living here for two years."],
+    "correct": 1
+  },
+  {
+    "text": "What is the passive voice of 'They are repairing the car.'?",
+    "options": ["The car is repaired.", "The car was repaired.", "The car is being repaired.", "The car has been repaired."],
     "correct": 2
   },
   {
-    "text": "Which word is a synonym of 'big'?",
-    "options": [
-      "tiny",
-      "huge",
-      "narrow",
-      "thin"
-    ],
+    "text": "What does 'bring up' mean in the context of a conversation?",
+    "options": ["forget", "mention", "avoid", "explain"],
+    "correct": 1
+  },
+  {
+    "text": "Which word completes: 'She ___ the book by tomorrow.'?",
+    "options": ["will finish", "finishes", "finished", "has finished"],
+    "correct": 0
+  },
+  {
+    "text": "What is the opposite of 'modern'?",
+    "options": ["new", "old-fashioned", "recent", "current"],
+    "correct": 1
+  },
+  {
+    "text": "Which preposition fits: 'He apologized ___ his mistake.'?",
+    "options": ["for", "to", "at", "with"],
+    "correct": 0
+  },
+  {
+    "text": "What does 'run into' mean in the context of meeting someone?",
+    "options": ["avoid", "meet unexpectedly", "ignore", "call"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is grammatically correct?",
+    "options": ["She don’t know the answer.", "She doesn’t know the answer.", "She not know the answer.", "She isn’t know the answer."],
+    "correct": 1
+  },
+  {
+    "text": "What is a synonym for 'rich'?",
+    "options": ["poor", "wealthy", "broke", "cheap"],
+    "correct": 1
+  },
+  {
+    "text": "Which word completes: 'If I ___ harder, I would have passed.'?",
+    "options": ["study", "studied", "had studied", "studying"],
+    "correct": 2
+  },
+  {
+    "text": "What does 'take after' mean?",
+    "options": ["dislike", "resemble", "avoid", "follow"],
+    "correct": 1
+  },
+  {
+    "text": "Which is the correct form: 'They ___ to the party tonight.'?",
+    "options": ["come", "are coming", "came", "have come"],
+    "correct": 1
+  },
+  {
+    "text": "What is the opposite of 'loud'?",
+    "options": ["noisy", "quiet", "strong", "bright"],
+    "correct": 1
+  },
+  {
+    "text": "Choose the correct article: 'I need ___ new pair of shoes.'?",
+    "options": ["a", "an", "the", "no article"],
+    "correct": 0
+  },
+  {
+    "text": "What does the idiom 'kick the bucket' mean?",
+    "options": ["die", "start something", "win", "lose"],
+    "correct": 0
+  },
+  {
+    "text": "Which word is a synonym for 'funny'?",
+    "options": ["serious", "hilarious", "sad", "boring"],
+    "correct": 1
+  },
+  {
+    "text": "Which sentence is correct?",
+    "options": ["I am knowing him for years.", "I have known him for years.", "I know him since years.", "I was knowing him for years."],
+    "correct": 1
+  },
+  {
+    "text": "What is the passive voice of 'Someone will clean the room.'?",
+    "options": ["The room was cleaned.", "The room is cleaned.", "The room will be cleaned.", "The room has been cleaned."],
+    "correct": 2
+  },
+  {
+    "text": "What does 'set up' mean in the context of organizing?",
+    "options": ["destroy", "arrange", "cancel", "ignore"],
     "correct": 1
   }
 ]
