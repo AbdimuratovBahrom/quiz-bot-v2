@@ -10,7 +10,7 @@ app.use(express.json());
 
 const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
 
