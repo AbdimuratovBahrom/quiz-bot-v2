@@ -1,9 +1,21 @@
 require('dotenv').config();
+
+if (!process.env.BOT_TOKEN || !process.env.WEBHOOK_URL || !process.env.PORT) {
+console.error("❌ Missing .env variables. BOT_TOKEN, WEBHOOK_URL, PORT must be defined.");
+process.exit(1);
+}
+
+
+
+console.log('📦 BOT_TOKEN loaded:', !!process.env.BOT_TOKEN);
+console.log('🌐 WEBHOOK_URL:', process.env.WEBHOOK_URL);
+console.log('📡 PORT:', process.env.PORT);
+
+
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const shuffle = require('lodash.shuffle');
-
 const app = express();
 app.use(express.json());
 
@@ -11,8 +23,8 @@ const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const PORT = process.env.PORT;
 
-const bot = new TelegramBot(TOKEN);
-bot.setWebHook(`${WEBHOOK_URL}/bot`);
+const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
+
 
 app.post(`/bot`, (req, res) => {
   bot.processUpdate(req.body);
@@ -191,6 +203,14 @@ bot.onText(/\/restart/, (msg) => {
   bot.sendMessage(chatId, `🔄 Начинаем заново. Нажмите /start`);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`✅ Server is running on port ${PORT}`);
+
+  try {
+    const webhookUrl = `${WEBHOOK_URL}/bot`;
+    const result = await bot.setWebHook(webhookUrl);
+    console.log(`📡 Webhook set to: ${webhookUrl}`, result);
+  } catch (err) {
+    console.error('❌ Failed to set webhook:', err);
+  }
 });
