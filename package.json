@@ -4,7 +4,8 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
-    "postinstall": "npm rebuild sqlite3 --build-from-source"
+    "postinstall": ""
+
   },
   "dependencies": {
     "lodash.shuffle": "^4.2.0",
