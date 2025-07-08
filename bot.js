@@ -1,10 +1,9 @@
 require('dotenv').config();
 
-if (!process.env.BOT_TOKEN || !process.env.WEBHOOK_URL || !process.env.PORT) {
-console.error("❌ Missing .env variables. BOT_TOKEN, WEBHOOK_URL, PORT must be defined.");
+if (!process.env.BOT_TOKEN || !process.env.WEBHOOK_URL) {
+console.error("❌ Missing BOT_TOKEN or WEBHOOK_URL environment variables.");
 process.exit(1);
 }
-
 
 
 console.log('📦 BOT_TOKEN loaded:', !!process.env.BOT_TOKEN);
@@ -21,7 +20,7 @@ app.use(express.json());
 
 const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 const bot = new TelegramBot(TOKEN, { webHook: true });
 
