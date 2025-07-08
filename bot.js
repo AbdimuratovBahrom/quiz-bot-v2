@@ -23,7 +23,8 @@ const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const PORT = process.env.PORT;
 
-const bot = new TelegramBot(TOKEN, { webHook: { port: PORT } });
+const bot = new TelegramBot(TOKEN, { webHook: true });
+
 
 
 app.post(`/bot`, (req, res) => {
@@ -203,6 +204,8 @@ bot.onText(/\/restart/, (msg) => {
   bot.sendMessage(chatId, `🔄 Начинаем заново. Нажмите /start`);
 });
 
+
+
 app.listen(PORT, async () => {
   console.log(`✅ Server is running on port ${PORT}`);
 
@@ -214,3 +217,4 @@ app.listen(PORT, async () => {
     console.error('❌ Failed to set webhook:', err);
   }
 });
+
