@@ -1,30 +1,29 @@
+
 require('dotenv').config();
 
-if (!process.env.BOT_TOKEN || !process.env.WEBHOOK_URL) {
-console.error("❌ Missing BOT_TOKEN or WEBHOOK_URL environment variables.");
-process.exit(1);
+if (!process.env.BOT_TOKEN || !process.env.WEBHOOK_URL || !process.env.PORT) {
+  console.error("❌ Missing .env variables. BOT_TOKEN, WEBHOOK_URL, PORT must be defined.");
+  process.exit(1);
 }
-
 
 console.log('📦 BOT_TOKEN loaded:', !!process.env.BOT_TOKEN);
 console.log('🌐 WEBHOOK_URL:', process.env.WEBHOOK_URL);
 console.log('📡 PORT:', process.env.PORT);
 
-
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const shuffle = require('lodash.shuffle');
+const db = require('./db'); // Подключаем SQLite
 const app = express();
 app.use(express.json());
 
 const TOKEN = process.env.BOT_TOKEN;
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
-const bot = new TelegramBot(TOKEN, { webHook: true });
-
-
+const bot = new TelegramBot(TOKEN);
+bot.setWebHook(`${WEBHOOK_URL}/bot`);
 
 app.post(`/bot`, (req, res) => {
   bot.processUpdate(req.body);
@@ -72,7 +71,9 @@ function sendQuestion(chatId) {
 
   bot.sendMessage(
     chatId,
-    `📚 Вопрос ${number} из 20:\n\n${question.text}`,
+    `📚 Вопрос ${number} из 20:
+
+${question.text}`,
     options
   );
 }
@@ -114,7 +115,8 @@ bot.on('callback_query', (query) => {
 
   if (query.data.startsWith('level_')) {
     const level = query.data.split('_')[1];
-    bot.sendMessage(chatId, `Вы выбрали уровень: ${level.toUpperCase()} ✅\nНачинаем...`);
+    bot.sendMessage(chatId, `Вы выбрали уровень: ${level.toUpperCase()} ✅
+Начинаем...`);
     startQuiz(chatId, level);
     return;
   }
@@ -137,27 +139,97 @@ bot.on('callback_query', (query) => {
           setTimeout(() => sendQuestion(chatId), 1000);
         }, 1000);
       } else {
-        bot.sendMessage(chatId, `🎉 Викторина завершена!\nВаш результат: ${session.score} из 20`);
+        bot.sendMessage(chatId, `🎉 Викторина завершена!
+Ваш результат: ${session.score} из 20`);
+        saveResult(chatId, session.level, session.score);
         userSessions.delete(chatId);
       }
     });
   }
 });
 
+// Сохранение результата в БД
+function saveResult(userId, level, score) {
+  const stmt = db.prepare('INSERT INTO results (user_id, level, score, timestamp) VALUES (?, ?, ?, datetime("now"))');
+  stmt.run(userId, level, score);
+}
+
+// Команда /top10
+bot.onText(/\/top10/, (msg) => {
+  const chatId = msg.chat.id;
+  const rows = db.prepare(`
+    SELECT user_id, level, MAX(score) as max_score
+    FROM results
+    GROUP BY user_id, level
+    ORDER BY max_score DESC
+    LIMIT 10
+  `).all();
+
+  if (rows.length === 0) {
+    bot.sendMessage(chatId, "📭 Пока нет результатов.");
+    return;
+  }
+
+  let response = "🏆 Топ 10 результатов:";
+
+  rows.forEach((row, i) => {
+    response += `${i + 1}. 👤 ${row.user_id} | ${row.level.toUpperCase()} | ${row.max_score}/20
+`;
+  });
+
+  bot.sendMessage(chatId, response);
+});
+
+
+
+// Команда /myresults
+bot.onText(/\/myresults/, (msg) => {
+  const chatId = msg.chat.id;
+  const rows = db.prepare('SELECT * FROM results WHERE user_id = ? ORDER BY timestamp DESC LIMIT 5').all(chatId);
+
+  if (rows.length === 0) {
+    bot.sendMessage(chatId, "📭 У вас пока нет сохранённых результатов.");
+    return;
+  }
+
+  let response = "📊 Ваши последние результаты:";
+
+  rows.forEach((r) => {
+    response += `📅 ${r.timestamp} | ${r.level.toUpperCase()} | ${r.score}/20
+`;
+  });
+
+  bot.sendMessage(chatId, response);
+});
+
 // Команда /help
 bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
   bot.sendMessage(chatId,
-    `ℹ️ Как пользоваться ботом:\n` +
-    `1. Нажмите /start или Начать тест и выберите уровень.\n` +
-    `2. Вам будет задано 20 вопросов.\n` +
-    `3. Отвечайте нажимая на варианты.\n` +
-    `4. После окончания увидите результат.\n\n` +
-    `Вы всегда можете использовать /restart, чтобы начать заново.\n` +
-    `Выберите уровень: Beginner, Intermediate или Advanced.\n` +
-    `Текущий результат будет показан по команде /score.`
+    `ℹ️ Как пользоваться ботом:
+` +
+    `1. Нажмите /start или Начать тест и выберите уровень.
+` +
+    `2. Вам будет задано 20 вопросов.
+` +
+    `3. Отвечайте нажимая на варианты.
+` +
+    `4. После окончания увидите результат.
+
+` +
+    `Дополнительно:
+` +
+    `/top10 — лучшие результаты
+` +
+    `/myresults — ваши результаты
+` +
+    `/score — текущий прогресс
+` +
+    `/restart — начать заново`
   );
 });
+
+
 
 // Команда /level
 bot.onText(/\/level/, (msg) => {
@@ -196,6 +268,7 @@ bot.onText(/\/info/, (msg) => {
   );
 });
 
+
 // Команда /restart
 bot.onText(/\/restart/, (msg) => {
   const chatId = msg.chat.id;
@@ -203,17 +276,10 @@ bot.onText(/\/restart/, (msg) => {
   bot.sendMessage(chatId, `🔄 Начинаем заново. Нажмите /start`);
 });
 
-
-
-app.listen(PORT, async () => {
+app.listen(PORT, () => {
   console.log(`✅ Server is running on port ${PORT}`);
-
-  try {
-    const webhookUrl = `${WEBHOOK_URL}/bot`;
-    const result = await bot.setWebHook(webhookUrl);
-    console.log(`📡 Webhook set to: ${webhookUrl}`, result);
-  } catch (err) {
-    console.error('❌ Failed to set webhook:', err);
-  }
 });
+
+
+
 
